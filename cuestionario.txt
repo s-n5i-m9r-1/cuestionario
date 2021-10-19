@@ -1,0 +1,52 @@
+--En tus palabras, ¿Qué es internet?
+El internet es el resultado de un experimento llamado ARPANET (Red de Agencias de Proyectos Avanzados de Investigación). 
+Este proyecto consiste en descubrir un sistema de comunicación que pueda sobrevivir un ataque nuclear, así tuvo la idea de 
+romper mensajes en bloques y enviarlos tan rápido a todas las direcciones posibles así creando el internet.
+
+--Describe los medios físicos y de propagación de ondas por los que se transmite la información en internet.
+Ahora tenemos un sistema para mandar los bits de información de una persona a la otra, usando la electricidad. 
+Pero tenemos un problema. Si necesitas mandar el 0 cinco veces en seguida, ¿cómo lo harás en una manera en donde ambas
+ personas puedan actualmente contar cuántos ceros están enviados? Y la solución es por un reloj o un minutero Los operadores 
+ pueden ponerse de acuerdo que el remitente mandará 1 bit por segundo y el receptor registrará cada segundo para ver que hay.
+Para mandar 5 ceros en seguida solo apaga la luz, espera 5 segundos y la otra persona anotará 5 ceros enseguida (0,0,0...). 
+Para mandar los 1, haz el opuesto, prende la luz.
+
+Obviamente queremos mandarlo un poco más rápidamente que 1 bit por segundo
+la manera de mandar mas rapido la información es por fibra óptica (todo esto funciona a base de cables)
+otra manera de mandar información es por señales de radio (antenas).
+
+--¿Cómo se organiza internet? Habla de las direcciones IP y los DNS.
+El internet es una red de redes que une billones de dispositivos, a través del wifi se conecta un servicio
+ de internet o ISP (Con el ISP te puedes conectar a millones de dispositivos alrededor del mundo) El protocolo de
+  comunicación por internet es simplemente llamado IP (la dirección de tu computadora es llamada dirección IP)
+Cuando visitas un sitio web, tu computadora se conecta a otra computadora.
+un sistema llamado DNS que asocia nombres como www.ejemplo.com con las direcciones corresponde (es un directorio)
+
+--Describe el procedimiento por el cual una canción de Spotify llega del servidor de la compañía a tu celular.
+La información viaja de computadora a computadora hasta llegar al servidor
+(todo tipo de información digital puede ser mandado como paquetes de IP)
+todo se divide en pequeños ¨paquetes¨ y se mandan de computadora a computadora, asi cargando canciones, 
+imagenes, etc
+
+--Describe los protocolos que existen en internet, en específico HTTP y HTML.
+HTTP: Cuando un sitio web pide a tu navegador una conexion segura, 
+primero le provee de un certificado digital, que es como un documento 
+de identidad oficial de que el sitio web es quien dice ser. HTML: permite crear de una manera 
+estructurada páginas web. y es un lenguaje estándar que los navegadores, son capaces de leer y reproducir.
+
+--En dos párrafos cuéntanos lo que aprendiste sobre encriptación y llaves públicas.
+Lo que aprendi fue que la encriptacion es un mecanismo en el cual revuelve o cambia
+el mensaje para esconder un texto. 
+Lo que aprendi de las llaves publicas es que se usan para cifrar datos y que cualquiera
+ puede usarla para crear mensajes secretos.
+
+--En dos párrafos cuéntanos lo que aprendiste sobre cómo protegerte de los criminales en internet.
+Lo que aprendi fue que tienen varios metodos para inadir tu computadora, como es un virus
+disfrazados.
+Con esto te das cuenta que no tienes que instalar cualquier cosa que no sea oficial, y no metiendote 
+a links raros
+
+--¿Cómo funciona la búsqueda de google?
+Es como una telaraña de paginas conectadas a traves de hipervinculos, los buscadores
+corren un programa llamada araña, este camina a traves de las paginas
+para recolectar informacion 
